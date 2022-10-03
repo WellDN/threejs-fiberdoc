@@ -5,7 +5,6 @@ import * as THREE from 'three'
 //All objects by default automatically update their matrices if they have been added to the scene with
 
 
-
 const object = new THREE.Object3D();
 scene.add( object );//or if they are the child of another object that has been added to the scene:
 //const object1 = new THREE.Object3D();
